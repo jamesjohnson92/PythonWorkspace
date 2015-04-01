@@ -30,12 +30,5 @@ class Clock(object):
         return "%2d:%2d:%2d" %(self.__hours,self.__minutes,self.__seconds)
 
 
-x = Clock()
-print x
-
-for i in xrange(2000000):
-    x.tick()
-
-print x
 
 

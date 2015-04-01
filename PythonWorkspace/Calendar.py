@@ -47,10 +47,3 @@ class Calendar(object):
     def __str__(self):
         return str(self.__day)+"/"+str(self.__month)+"/"+str(self.__year)
 
-if __name__ == "__main__" :
-    x = Calendar()
-    print x
-    x.advance();
-    print x
-    (self,date,month,year) = x.get()
-    print date,month,year
